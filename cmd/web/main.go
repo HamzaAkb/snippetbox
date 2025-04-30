@@ -14,7 +14,7 @@ import (
 type application struct {
 	errorLog	*log.Logger
 	infoLog		*log.Logger
-	snippets	*modles.SnippetModel
+	snippets	*models.SnippetModel
 }
 
 func main(){
